@@ -24,7 +24,7 @@ public class GameController {
     private void buttonLetterPressed(Button buttonLetter, int i, int j){
         buttonLetter.setOnAction(new EventHandler<ActionEvent>() {
             @Override
-            public void hanJAJAJAJAJAJAJAdle(ActionEvent actionEvent) {
+            public void handle(ActionEvent actionEvent) {
                 //System.out.println("Button pressed in the position, " + i + " " + j);
             }
         });
